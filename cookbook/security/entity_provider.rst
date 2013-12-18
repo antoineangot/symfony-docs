@@ -578,7 +578,7 @@ The ``AcmeUserBundle:Role`` entity class defines three fields (``id``,
 (e.g. ``ROLE_ADMIN``) used by the Symfony security layer to secure parts
 of the application::
 
-    // src/Acme/Bundle/UserBundle/Entity/Role.php
+    // src/Acme/UserBundle/Entity/Role.php
     namespace Acme\UserBundle\Entity;
 
     use Symfony\Component\Security\Core\Role\RoleInterface;
